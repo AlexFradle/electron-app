@@ -1,0 +1,17 @@
+@use "components/TitleBar";
+
+:root {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#outer {
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+}

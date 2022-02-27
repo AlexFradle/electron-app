@@ -1,0 +1,17 @@
+.title-bar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+    -webkit-app-region: drag;
+}
+
+.title-bar-item {
+    width: 40px;
+    height: 20px;
+    -webkit-app-region: no-drag;
+    cursor: default;
+
+    &:hover {
+        background-color: red;
+    }
+}
